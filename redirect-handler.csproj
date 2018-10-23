@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>JohnsonControls.Net.Http</RootNamespace>
+    <AssemblyName>JohnsonControls.Net.Http</AssemblyName>
+  </PropertyGroup>
+  
+  <!-- Properties for NuGet Package -->
+  <PropertyGroup>
+    <PackageId>HttpClientRedirectHandler</PackageId>
+    <Title>A simple handler for redirects to the same server</Title>
+    <Description>By default with AllowAutoRedirect enabled, the HttpClient will strip off the Authorization
+      header when following a redirect. This is for security reasons. This package allows the redirects to
+      be followed as long as the host name in the RedirctUrl matches the host name of the original request.
+    </Description>
+    <Copyright>2018</Copyright>
+    <PackageProjectUrl>https://github.com/metasys-server/redirect-handler</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/metasys-server/redirect-handler</RepositoryUrl>
+    <PackageTags>HttpClient;Redirect;Authorization</PackageTags>
+    <Company>Johnson Controls</Company>
+    <Version>1.0.0-beta.1</Version>
+  </PropertyGroup>
+    
+
+</Project>
