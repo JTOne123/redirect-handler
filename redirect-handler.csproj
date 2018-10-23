@@ -19,7 +19,11 @@
     <RepositoryUrl>https://github.com/metasys-server/redirect-handler</RepositoryUrl>
     <PackageTags>HttpClient;Redirect;Authorization</PackageTags>
     <Company>Johnson Controls</Company>
-    <Version>1.0.0-beta.1</Version>
+    <MinimumVisualStudioVersion>2017</MinimumVisualStudioVersion>
+    <MinimumRequiredVersion>4.4</MinimumRequiredVersion>
+    <Authors>michaelgwelch</Authors>
+    <Version>1.0.0-beta.4</Version>
+    <PackageLicenseUrl>https://opensource.org/licenses/BSD-3-Clause</PackageLicenseUrl>
   </PropertyGroup>
     
 
