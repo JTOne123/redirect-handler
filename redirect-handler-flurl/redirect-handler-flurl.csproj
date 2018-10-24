@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>JohnsonControls.Net.Http</RootNamespace>
+    <AssemblyName>JohnsonControls.Net.Http.Flurl</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Flurl.Http" Version="2.4.0" />
+    <PackageReference Include="HttpClientRedirectHandler" Version="1.0.0" />
+  </ItemGroup>
+
+  <!-- Nuget Properties -->
+  <PropertyGroup>
+    <PackageId>HttpClientRedirectHandler.Flurl</PackageId>
+    <Title>A package to allow the use of HttpClientRedirectHandler with Flurl.Http</Title>
+    <Description>By default with AllowAutoRedirect enabled, the HttpClient will strip off the Authorization
+      header when following a redirect. This is for security reasons. This package allows the redirects to
+      be followed as long as the host name in the RedirctUrl matches the host name of the original request.
+    </Description>
+    <Copyright>2018</Copyright>
+    <PackageProjectUrl>https://github.com/metasys-server/redirect-handler</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/metasys-server/redirect-handler</RepositoryUrl>
+    <PackageTags>HttpClient;Redirect;Authorization;Flurl</PackageTags>
+    <Company>Johnson Controls</Company>
+    <MinimumVisualStudioVersion>2017</MinimumVisualStudioVersion>
+    <MinimumRequiredVersion>4.4</MinimumRequiredVersion>
+    <Authors>michaelgwelch</Authors>
+    <Version>1.0.0</Version>
+    <PackageLicenseUrl>https://opensource.org/licenses/BSD-3-Clause</PackageLicenseUrl>
+  </PropertyGroup>
+</Project>

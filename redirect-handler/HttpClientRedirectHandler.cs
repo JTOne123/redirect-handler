@@ -1,4 +1,4 @@
-﻿using System.Diagnostics.CodeAnalysis;
+using System.Diagnostics.CodeAnalysis;
 using System.Net;
 using System.Net.Http;
 using System.Threading;
@@ -10,7 +10,7 @@ namespace JohnsonControls.Net.Http
     [SuppressMessage("ReSharper", "UnusedMember.Global")]
     public class HttpClientRedirectHandler : DelegatingHandler
     {
-                       
+
         public HttpClientRedirectHandler() : base(new HttpClientHandler() { AllowAutoRedirect = false })
         {
             EnforceHostNameMatching = true;
@@ -37,7 +37,7 @@ namespace JohnsonControls.Net.Http
             }
             return response;
         }
-            
+
         public bool EnforceHostNameMatching { get; set; }
     }
 }
